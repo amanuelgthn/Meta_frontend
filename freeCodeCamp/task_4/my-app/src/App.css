@@ -1,0 +1,10 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: purple;
+  color: white;
+}
