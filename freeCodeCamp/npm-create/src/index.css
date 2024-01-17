@@ -1,0 +1,62 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  background-color: #161515;
+  align-items: center;
+  height: 45px;
+  padding: 30px 25px;
+}
+
+nav > h1, nav > h3 {
+  margin: 0;
+}
+nav > h3 {
+  margin-right: auto;
+  color: aqua;
+}
+
+.img-logo {
+  width: 60px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color:antiquewhite;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: auto;
+  background-color: antiquewhite;
+}
+
+.main {
+  background-color: #282D35;
+  height: 100%;
+}
+
+.main--facts {
+  margin-top: 46px;
+}
+
+.main--facts > li {
+  list-style: none;
+  line-height: 40px;
+}
+
+/* change the color of the bullet points of the unorderd list */
+ul li::before {
+  content: "\2022";
+  color: aqua;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}

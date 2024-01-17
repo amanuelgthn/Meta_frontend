@@ -1,0 +1,36 @@
+html {
+  background-color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 5px;
+}
+
+.img-logo {
+  width: 60px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color:antiquewhite;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: auto;
+  background-color: antiquewhite;
+}
