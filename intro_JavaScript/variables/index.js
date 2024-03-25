@@ -8,4 +8,3 @@ buttonB.onclick = () => {
     headingB.textContent = `Welcome ${(name)}!`;
 }
     
-    /* dfkjldsfj */
