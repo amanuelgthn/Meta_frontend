@@ -4,7 +4,7 @@
 var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake']
 
 function logDairy () {
-    for (item in dairy) {
+    for (const item in dairy) {
         console.log (dairy[item]);
     }
 }
