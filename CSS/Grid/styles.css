@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    height: 150vh;
+    grid-template-rows: auto 1fr auto; /* the fist row will adjust itself according to its content while the second will use the remaining space and the third will fill be according to its content */
+    padding: 5em;
+}
+
+header {
+    background-color: #dd9207;
+    text-align: center;
+    padding: 2em;
+}
+
+main {
+    background-color: #7a85e2;
+    text-align: center;
+    padding: 2em;
+}
+footer {
+    background-color: #a1c498;
+    text-align: center;
+    padding: 2em;
+}

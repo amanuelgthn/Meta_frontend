@@ -1,0 +1,13 @@
+.container {
+    display: inline-flex;
+    flex: 1 1 300px;
+    border-radius: 10px;
+    border:  10px solid #199c44;
+    height: 30px;
+}  
+
+.searchSubmit {
+    background-color: #06065a;
+    color: #ffffff;
+
+}

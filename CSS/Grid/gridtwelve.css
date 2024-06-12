@@ -1,0 +1,24 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.segment {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px;
+}
+
+.twelve {
+    background-color: lightgreen;
+    grid-column: 1/ span 12;
+}
+
+.eight {
+    background-color: aquamarine;
+    grid-column: 8/ span 12; /* when defining grid column in the given format
+    the first element specifies where the grid display starts and the last speicfies the total partition of the girds
+    in the abvoe line of code the total grid partition is 12 and making the first number 1 makes the grid to start at the begining
+    if we were to say start at 6 then the grid display will stgart from the middle of the grid */
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    align-items: stretch; /* align-items property controls the cross-axis */
+}
+
+.row .label {
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row .dish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pasta {
+    background-color: #EE9972;
+}
+
+.pizza {
+    background-color: #ffa500;
+}
+
+.burrita {
+    background-color: #080861;
+    color: white;
+}
+
+
+Yes I live in 906-A
